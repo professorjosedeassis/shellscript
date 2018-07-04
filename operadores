@@ -4,8 +4,6 @@
 * (multiplicação)
 / (divisão)
 % (resto da divisão)
-++ (incremento)
--- (decremento)
 
 ###### Operadores Lógicos ######
 && (AND)
