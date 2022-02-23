@@ -94,7 +94,7 @@ done
 Sintaxe shell script da estrutura while (laço de repetição)
 while [ condição ]
 do
-  #comando;
+  #comandos;
 done
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
