@@ -6,7 +6,7 @@
 
 ###### Variáveis ######
 
-Na programação utilizamos as variáveis para armazenar dados na memória. Estes dados podem ser alterados de acordo com o tempo.
+Na programação utilizamos as variáveis para armazenar dados na memória.
 Basicamente temos 3 tipos de dados que podem ser armazenados nas variáveis:
 •	String (consiste em letras e outros caracteres)
 •	Numérico (lida com números inteiros e reais)
