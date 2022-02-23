@@ -1,0 +1,147 @@
+###### Introdução ao Shell script ######
+
+1) Shell é um ambiente misto (digitação de comandos e programação)
+2) BASH é o shell mais popular
+3) Shell script é uma linguagem de script que roda em cima de uma linguagem base (Linguagem C)
+
+###### Variáveis ######
+
+Na programação utilizamos as variáveis para armazenar dados na memória. Estes dados podem ser alterados de acordo com o tempo.
+Basicamente temos 3 tipos de dados que podem ser armazenados nas variáveis:
+•	String (consiste em letras e outros caracteres)
+•	Numérico (lida com números inteiros e reais)
+•	Booleano (verdadeiro ou falso)
+
+Boas práticas para nomear variáveis nas linguagens de programação
+•	Todos os nomes diferenciam letras maiúsculas de minúsculas
+•	O nome deve começar com uma letra
+•	Não usar caracteres especiais nem deixar espaços
+•	Não usar palavras chaves ou reservadas da linguagem de programação
+•	Definir nomes que descrevam o tipo de informação que as variáveis armazenam
+
+Para criar uma variável no shell basta atribuir um valor ao nome da variável
+Eexemplos:
+nome="José de Assis"  
+nota=8
+
+Comandos:
+echo -> "imprime um texto no terminal"
+echo$ -> "mostra" o conteúdo de uma variável
+set -> exibe todas as variáveis
+unset -> apaga uma variável
+export -> transforma uma variável em global
+env -> exibe todas as variáveis exportadas
+
+###### Operadores Aritméticos ######
+
++ (soma)
+- (subtração)
+* (multiplicação)
+/ (divisão)
+% (resto da divisão)
+
+###### Operadores Lógicos ######
+
+&& (AND)
+|| (OR)
+!  (NOT)
+
+###### Comparadores ######
+
+-eq (igual)
+-ne (diferente)
+-gt (maior)
+-lt (menor)
+-le (menor igual)
+-ge (maior igual)
+
+###### Estruturas de controle ######
+
+Estrutura condicional (if else)
+if [ condição ]; then
+  #condição verdadeira;
+else
+  #condição falsa;
+fi
+
+Sintaxe shell script (if else encadeado):
+if [ condição1 ]; then
+  #condição1 verdadeira;
+elif [ condição2 ]; then 
+  #condição2 verdadeira;
+else
+  #condição falsa;
+fi
+
+Sintaxe shell script da estrutura switch case
+case (variável) in
+"1")
+  #código1
+;;
+"2")
+  #código2
+;;
+*)
+  #nenhuma das anteriores
+esac;
+
+Sintaxe shell script da estrutura for (laço de repetição)
+for contador in {1..10}
+do
+  #comandos;
+done
+
+Sintaxe shell script da estrutura while (laço de repetição)
+while [ condição ]
+do
+  #comando;
+done
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+vi pegadinha.sh
+
+#!/bin/bash
+#eject (abre a gaveta do DVD)
+#eject -t (fecha a gaveta do DVD)
+#sleep (timer em segundos)
+for contador in {1..5}
+do
+eject;
+sleep 2;
+eject -t;
+sleep 2;
+done
+exit;
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+###### Criando uma função no Shell ######
+
+nome() {
+    #código
+}
+
+Para executar a função basta digitar o nome!
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Exemplo de script para facilitar o back-up
+vi backup.sh
+
+#!/bin/bash
+clear;
+echo -n "Digite o diretório origem do back-up: ";
+read origem;
+### Verificando se existe o diretório de origem
+## -d (verifica se existe o caminho do diretório apontado na variável $origem)
+## ! (NOT "inversor") se não existir
+if [ ! -d $origem ]; then
+echo "diretório não encontrado";
+exit;
+fi
+### criando um backup com data e hora automática
+### Para atribuir um comando personalizado a variável, usar `apostrofe`
+data=`date + %d%m%y%H%M%S`;
+tar -czvf $data.tgz $origem;
+clear;
+echo "Backup realizado com sucesso em `pwd`;
+exit;
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
