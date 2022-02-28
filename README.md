@@ -3,13 +3,13 @@
 ![](https://github.com/professorjosedeassis/shellscript/blob/master/bash.png?raw=true)
 # Shell script
 :octocat: Este repositório foi usado como um dos exemplos do curso git e GitHub.
-## Autor
+### Autor
 Professor José de Assis
-## Videoaula (Instalação do git no Linux):
+### Videoaula (Instalação do git no Linux)
 [![shellscript](https://img.youtube.com/vi/YKjPi7Td3ZQ/0.jpg)](https://youtu.be/YKjPi7Td3ZQ "Assistir no YouTube")
 
 ![YouTube Video Views](https://img.shields.io/youtube/views/YKjPi7Td3ZQ?style=social)
-## Playlist do curso:
+### Playlist
 [Iniciar curso](https://www.youtube.com/playlist?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj)
 ## Como apoiar os cursos gratuitos e projetos?
 Você pode:
