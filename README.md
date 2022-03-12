@@ -11,6 +11,8 @@ Professor José de Assis
 ![YouTube Video Views](https://img.shields.io/youtube/views/YKjPi7Td3ZQ?style=social)
 ### Playlist
 [Iniciar curso](https://www.youtube.com/playlist?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj)
+### Certificado
+[Iniciar teste](https://forms.gle/R7iabpjXkbfjwaWj8)
 ## Como apoiar os cursos gratuitos e projetos?
 Você pode:
 - Inscrever-se no canal do YouTube - [INSCREVA-SE!](https://www.youtube.com/c/RoboticapraticaBr/?sub_confirmation=1)
