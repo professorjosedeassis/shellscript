@@ -2,7 +2,7 @@
 
 ![](https://github.com/professorjosedeassis/shellscript/blob/master/bash.png?raw=true)
 # Shell script
-:octocat: Este repositório foi usado como um dos exemplos do curso git e GitHub.
+:octocat: Este repositório foi usado como um dos exemplos do curso Git e GitHub.
 ### Autor
 Professor José de Assis
 ### Videoaula (Instalação do git no Linux)
