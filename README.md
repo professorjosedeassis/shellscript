@@ -2,7 +2,7 @@
 
 ![](https://github.com/professorjosedeassis/shellscript/blob/master/bash.png?raw=true)
 # Shell script
-:octocat: Este repositório foi usado como um dos exemplos do curso Git e GitHub.
+:octocat: Este repositório foi usado como um dos exemplos do tutorial Git e GitHub.
 ### Autor
 Professor José de Assis
 ### Videoaula (Instalação do git no Linux)
@@ -12,12 +12,12 @@ Professor José de Assis
 ### Playlist
 [Iniciar curso](https://www.youtube.com/playlist?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj)
 ### Certificado
-[Iniciar teste](https://forms.gle/R7iabpjXkbfjwaWj8)
-## Como apoiar os cursos gratuitos e projetos?
+[Iniciar tutorial](https://forms.gle/R7iabpjXkbfjwaWj8)
+## Como apoiar os tutoriais e projetos?
 ### Você pode:
 :heavy_check_mark: Inscrever-se no canal do YouTube - [INSCREVA-SE!](https://www.youtube.com/c/RoboticapraticaBr/?sub_confirmation=1)
 
-:heavy_check_mark: Compartilhar os cursos e projetos
+:heavy_check_mark: Compartilhar os tutoriais e projetos
 
 :heavy_check_mark: Seguir-me nas redes sociais:
 <p align="left">
