@@ -1,6 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/professorjosedeassis/shellscript)
 
-![](https://github.com/professorjosedeassis/shellscript/blob/master/bash.png?raw=true)
 # Shell script
 Shell script é um programa ou conjunto de comandos escritos em uma linguagem de script (geralmente, mas não necessariamente, em bash) que é executado no shell de um sistema operacional, como o Linux ou o macOS. Ele permite automatizar tarefas, como manipular arquivos, executar programas e realizar várias operações no sistema operacional por meio de instruções escritas em um arquivo de script, tornando a interação com o sistema mais eficiente.
 
@@ -9,12 +8,10 @@ Shell script é um programa ou conjunto de comandos escritos em uma linguagem de
 :octocat: Este repositório foi usado como um dos exemplos do tutorial Git e GitHub.
 ### Autor
 Professor José de Assis
-### Tutorial Git e GitHub
-[![gitegithub](https://img.youtube.com/vi/FF1f4bKYhoo/0.jpg)](https://www.youtube.com/playlist?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj "Assistir no YouTube")
+### Videoaula (Instalar e configurar Git e GitHub no Linux)
+[![gitegithub](https://img.youtube.com/vi/YKjPi7Td3ZQ/0.jpg)](https://youtu.be/YKjPi7Td3ZQ?si=TstBpkwzSjVmsXhl "Assistir no YouTube")
 
-![YouTube Video Views](https://img.shields.io/youtube/views/FF1f4bKYhoo?style=social)
-### Iniciar tutorial:
-[Playlist](https://www.youtube.com/playlist?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj)
+![YouTube Video Views](https://img.shields.io/youtube/views/YKjPi7Td3ZQ?style=social)
 ## Como apoiar os tutoriais e projetos?
 ### Você pode:
 :heavy_check_mark: Inscrever-se no canal do YouTube - [INSCREVA-SE!](https://www.youtube.com/c/RoboticapraticaBr/?sub_confirmation=1)
