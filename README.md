@@ -5,7 +5,7 @@ Shell script é um programa ou conjunto de comandos escritos em uma linguagem de
 
 [https://www.shellscript.sh/](https://www.shellscript.sh/)
 
-:octocat: Este repositório foi usado como um dos exemplos do tutorial Git e GitHub.
+:octocat: Este repositório foi usado como um dos exemplos do curso Git e GitHub.
 ### Autor
 Professor José de Assis
 ### Videoaula (Instalar e configurar Git e GitHub no Linux)
